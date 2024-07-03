@@ -50,9 +50,9 @@ export default function Home() {
 
   return (
 
-    <main className="flex flex-row min-h-screen items-stretch justify-between p-24">
+    <main className="flex flex-col md:flex-row min-h-screen items-stretch justify-between p-4 md:p-24">
 
-      <div className="flex-auto p-14 w-2/3">
+      <div className="flex-auto sm:p-2 md:p-14 md:w-2/3">
         <h1 className="text-7xl object-top">
           connect with other 
           <br />
@@ -99,7 +99,7 @@ export default function Home() {
         
       </div>
 
-      <div className="flex-auto w-1/3">
+      <div className="md:flex-auto sm:w-full md:w-1/3">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
           src="/img/mockup_ios.png"
