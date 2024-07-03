@@ -99,7 +99,7 @@ export default function Home() {
         
       </div>
 
-      <div className="md:flex-auto sm:w-full md:w-1/3">
+      <div className="flex justify-center md:flex-auto sm:w-full md:w-1/3">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
           src="/img/mockup_ios.png"
